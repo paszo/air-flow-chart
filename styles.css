@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+}
+
+text {
+    font-family: sans-serif;
+    fill: #666666;
+}
+
+#first-container {
+    display: flex;
+    flex-direction: row;
+}
+
+#second-container {
+    display: flex;
+    flex-direction: row;
+}
+
+#row-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.dropdown-container {
+    margin-top: 100px;
+}
+
+path.line-curve {
+    pointer-events: none;
+    fill: none;
+    stroke: #1e3855;
+    stroke-width: 4px;
+    stroke-linejoin: round;
+    stroke-linecap: round;
+}
+
+line.line-value {
+    pointer-events: none;
+    stroke: #1e3855;
+}
+
+path.line-connecting {
+    pointer-events: none;
+    fill: none;
+    stroke-width: 4px;
+    stroke-linejoin: round;
+    stroke-linecap: round;
+}
+
+circle.path-circle {
+    /*pointer-events: none;*/
+}
+
+.tick line {
+  stroke: #c8c8c8;
+}
+
+path.domain {
+    display: none;
+}
+
+text.title {
+    font-size: 16px;
+    fill: #1e3855;
+    font-weight: bold;
+}
+
+text.x-axis-label, text.y-axis-label{
+    font-size: 16px;
+    fill: #666666;
+}
+
+label {
+    font-family: sans-serif;
+    font-size: 16px;
+    color: #666666;
+}
+
+text.text-value {
+    pointer-events: none;
+    font-size: 12px;
+    fill: #444444;
+    font-weight: bold;
+}
+
+text.pointer-text-vertical, text.pointer-text-horizontal {
+    pointer-events: none;
+    font-size: 12px;
+    fill: #444444;
+    font-weight: bold;
+}
+
+line.pointer-line-horizontal{
+    pointer-events: none;
+    stroke: #11abad;
+}
+
+line.pointer-line-vertical {
+    pointer-events: none;
+    stroke: #11abad;
+}
+
+circle.pointer-circle {
+    pointer-events: none;
+    fill: #11abad;
+}
+
+.tooltip-rect {
+    opacity: 0.8;
+}
+
+g.tooltip {
+    pointer-events: none;
+}
+
+.voltage-text {
+    font-size: 14px;
+    fill: white;
+    font-weight: bold;
+}
+
+.x-text {
+    font-size: 12px;
+    fill: white;
+}
+.y-text {
+    font-size: 12px;
+    fill: white;
+}
